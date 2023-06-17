@@ -2,7 +2,7 @@
 #pragma newdecls required
 
 #define PLUGIN_AUTHOR "x07x08"
-#define PLUGIN_VERSION "1.0.0"
+#define PLUGIN_VERSION "1.0.1"
 
 #include <sourcemod>
 #include <tf2_stocks>
@@ -16,7 +16,7 @@ public Plugin myinfo =
 	author = PLUGIN_AUTHOR,
 	description = "Fixes the looping sounds of explosions",
 	version = PLUGIN_VERSION,
-	url = ""
+	url = "https://github.com/x07x08/TF2-Explosion-Sound-Fix"
 };
 
 public void OnPluginStart()
